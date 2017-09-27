@@ -1,5 +1,13 @@
-# Content: Unsupervised Learning
-## Project: Creating Customer Segments
+# Project: Bay Area Bike Share Analysis
+## Data Analysis
+
+To see the project refer to `Bay_Area_Bike_Share_Analysis.ipynb` file.
+
+### Overview
+
+[Bay Area Bike Share[(http://www.bayareabikeshare.com/) is a company that provides on-demand bike rentals for customers in San Francisco, Redwood City, Palo Alto, Mountain View, and San Jose. Users can unlock bikes from a variety of stations throughout each city, and return them to any station within the same city. Users pay for the service either through a yearly subscription or by purchasing 3-day or 24-hour passes. Users can make an unlimited number of trips, with trips under thirty minutes in length having no additional charge; longer trips will incur overtime fees.
+
+In this project, we will perform an exploratory analysis on the data. we will take a look at two of the major parts of the data analysis process: data wrangling and exploratory data analysis. But before start looking at data, we discuss some questions we might want to understand about the bike share data. Consider, for example, if we were working for Bay Area Bike Share: what kinds of information would we want to know about in order to make smarter business decisions? Or we might think about if we were a user of the bike share service. What factors might influence how we would want to use the service?
 
 ### Install
 
@@ -16,34 +24,28 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-Template code is provided in the `customer_segments.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `customers.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+Template code is provided in the `Bay_Area_Bike_Share_Analysis.ipynb` notebook file. You will also be required to use the included `babs_visualizations.py` Python file and the `babs_y1_y2_summary.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `babs_visualizations.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
 
 ### Run
 
 In a terminal or command window, navigate to the top-level project directory `customer_segments/` (that contains this README) and run one of the following commands:
 
 ```bash
-ipython notebook customer_segments.ipynb
+ipython notebook Bay_Area_Bike_Share_Analysis.ipynb
 ```  
 or
 ```bash
-jupyter notebook customer_segments.ipynb
+jupyter notebook Bay_Area_Bike_Share_Analysis.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
 
-## Data
+## File List
 
-The customer segments data is included as a selection of 440 data points collected on data found from clients of a wholesale distributor in Lisbon, Portugal. More information can be found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers).
+1) 201508_status_data.csv – approx. 37 million records of bike and dock availability by minute
 
-Note (m.u.) is shorthand for *monetary units*.
+2) 201508_station_data.csv – 70 records – station ID, name, latitude, longitude, dockcount, city, installation date
 
-**Features**
-1) `Fresh`: annual spending (m.u.) on fresh products (Continuous); 
-2) `Milk`: annual spending (m.u.) on milk products (Continuous); 
-3) `Grocery`: annual spending (m.u.) on grocery products (Continuous); 
-4) `Frozen`: annual spending (m.u.) on frozen products (Continuous);
-5) `Detergents_Paper`: annual spending (m.u.) on detergents and paper products (Continuous);
-6) `Delicatessen`: annual spending (m.u.) on and delicatessen products (Continuous); 
-7) `Channel`: {Hotel/Restaurant/Cafe - 1, Retail - 2} (Nominal)
-8) `Region`: {Lisbon - 1, Oporto - 2, or Other - 3} (Nominal) 
+3) 201508_trip_data.csv – approx. 354,000 records of individual trips
+
+4) 201508_weather_data.csv – 1,825 records of daily weather by city
