@@ -28,7 +28,7 @@ Template code is provided in the `Bay_Area_Bike_Share_Analysis.ipynb` notebook f
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `customer_segments/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `Udacity-P1-Analyze-Bay-Area-Bike-Share-Data/` (that contains this README) and run one of the following commands:
 
 ```bash
 ipython notebook Bay_Area_Bike_Share_Analysis.ipynb
