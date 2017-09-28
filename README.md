@@ -24,7 +24,7 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-Template code is provided in the `Bay_Area_Bike_Share_Analysis.ipynb` notebook file. You will also be required to use the included `babs_visualizations.py` Python file and the `babs_y1_y2_summary.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `babs_visualizations.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+Template code is provided in the `Bay_Area_Bike_Share_Analysis.ipynb` notebook file. The data files are in `dandp0-bikeshareanalysis.zip` file.
 
 ### Run
 
@@ -42,10 +42,10 @@ This will open the Jupyter Notebook software and project file in your browser.
 
 ## File List
 
-1) 201508_status_data.csv – approx. 37 million records of bike and dock availability by minute
+1) 201508_status_data.csv â€“ approx. 37 million records of bike and dock availability by minute
 
-2) 201508_station_data.csv – 70 records – station ID, name, latitude, longitude, dockcount, city, installation date
+2) 201508_station_data.csv â€“ 70 records â€“ station ID, name, latitude, longitude, dockcount, city, installation date
 
-3) 201508_trip_data.csv – approx. 354,000 records of individual trips
+3) 201508_trip_data.csv â€“ approx. 354,000 records of individual trips
 
-4) 201508_weather_data.csv – 1,825 records of daily weather by city
+4) 201508_weather_data.csv â€“ 1,825 records of daily weather by city
