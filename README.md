@@ -24,7 +24,7 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-Template code is provided in the `Bay_Area_Bike_Share_Analysis.ipynb` notebook file. The data files are in `dandp0-bikeshareanalysis.zip` file.
+The code is provided in the `Bay_Area_Bike_Share_Analysis.ipynb` notebook file. The data files are in `dandp0-bikeshareanalysis.zip` file.
 
 ### Run
 
